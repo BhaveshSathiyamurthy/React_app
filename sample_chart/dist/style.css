@@ -1,0 +1,67 @@
+body, html {
+  background: #181E24;
+  padding-top: 10px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.chartjsLegend ul {
+  list-style: none;
+}
+
+.chartjsLegend li {
+  display: inline-block;
+  margin-left: 1.5rem;
+  font-size: 14px;
+  font-family: "Segoe UI", "Helvetica";
+  color: #707070;
+}
+
+.chartjsLegend li span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.wrapper {
+  position: relative;
+  width: 1280px;
+  display: block;
+  overflow: hidden;
+  padding: 60px 50px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.million {
+  position: absolute;
+  font-family: "Segoe UI", "Helvetica";
+  color: #707070;
+  font-size: 14px;
+  left: unset;
+  top: unset;
+  bottom: 34px;
+  right: 4px;
+  background: white;
+  padding: 0.5rem;
+  padding-left: 0;
+}
+
+canvas {
+  background: #fff;
+  height: 600px;
+}
+
+h1 {
+  font-family: Roboto;
+  color: #fff;
+  margin-top: 50px;
+  font-weight: 200;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
