@@ -1,0 +1,15 @@
+.navbar
+{
+    width: 100vw;
+    background-color: #fff;
+    /* //float: left; */
+}
+form
+{
+    margin: 10px;
+    /* float: left; */
+}
+.searchBar
+{
+    width: 70vw;
+}

@@ -5,14 +5,40 @@
   float: left;
 }
 
-.wrapper
-{
+/* .frag_wrapper {
   height: auto;
   width: 100%;
+  float: left;
+  flex-wrap: wrap;
   /* background: #000; */
-}
-.ChartCanvas
+/* } */ 
+.fwrapper
 {
-  width: 100vw;
-  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ChartCanvas {
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  display: "flex";
+}
+.chart
+{
+  display: flex;
+}
+.ChartCanvas h4 {
+  color: #1b2559;
+  text-align: justify;
+  position: relative;
+}
+.Filterdiv {
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+
 }

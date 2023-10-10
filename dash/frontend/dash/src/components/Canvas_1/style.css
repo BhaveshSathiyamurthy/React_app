@@ -1,33 +1,5 @@
-.chartjsLegend ul {
-    list-style: none;
-  }
-  .chartjsLegend li {
-    display: inline-block;
-    margin-left: 1.5rem;
-    font-size: 14px;
-    font-family: 'Segoe UI', 'Helvetica';
-    color: #707070;
-  }
-  .chartjsLegend li span {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin-right: 5px;
-    border-radius: 50%;
-  }
-  .chartjsLegend
-  {
-    float: right
-  }
-  .wrapper {
-    position: relative;
-    width: 100%;
-    height: 450px;
-    display: block;
-    overflow: hidden;
-    padding: 60px 50px 60px 50px;
-    background: #fff;
-    border-radius: 4px;
-  }
+.chartjsLegend
+{
+  float: right
+}
 
-  

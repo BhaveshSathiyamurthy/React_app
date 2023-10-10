@@ -21,7 +21,7 @@ export async function getFilterRow(name)
 {
 const [rows] = await pool.query(
     `select * from DATA 
-    where company = '${name}'
+    where CFA_Name = '${name}'
     `)
 return rows
 }

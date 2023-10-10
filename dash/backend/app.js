@@ -19,7 +19,6 @@ app.get("/dashdb/:name",async (req,res)=>{
    res.send(data)
 })
 
-
 app.use((err, req, res, next) => {
     console.error(err.stack)
     res.status(500).send('Something broke!')
