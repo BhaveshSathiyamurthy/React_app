@@ -11,12 +11,12 @@
   float: left;
   flex-wrap: wrap;
   /* background: #000; */
-/* } */ 
-.fwrapper
-{
+/* } */
+.fwrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0px;
 }
 .ChartCanvas {
   width: fit-content;
@@ -25,10 +25,17 @@
   border-radius: 10px;
   padding: 15px;
   margin-top: 10px;
-  display: "flex";
+  margin-left: 36px;
 }
-.chart
-{
+.ChartCanvas2 {
+  margin-left: 36px;
+  display: flex;
+}
+.t_wrapper {
+  display: "flex";
+  
+}
+.chart {
   display: flex;
 }
 .ChartCanvas h4 {
@@ -40,5 +47,17 @@
   height: fit-content;
   width: fit-content;
   position: relative;
-
+}
+.empty
+{
+  width: 20px;
+}
+.table_bg
+{
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
 }

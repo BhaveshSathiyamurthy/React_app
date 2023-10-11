@@ -14,16 +14,11 @@ import "./App.css";
 function App() {
   return (
     <>
-
-    <div>
-      <TableComponent/>
-    </div>
-      {/* <div>
+      <div>
         <Navbar />
       </div>
       <br />
-      <div
-       className="f_wraper">
+      <div className="f_wraper">
         <div className="ChartCanvas">
           <h4>Stockist by Returns filtered by Medicine</h4>
           <div className="chart">
@@ -36,6 +31,17 @@ function App() {
 
         <br />
 
+        <div className="ChartCanvas2">
+          <div className="table_bg">
+            <TableComponent />
+          </div>
+          <div className="empty"></div>
+          <div className="table_bg">
+            <TableComponent />
+          </div>
+        </div>
+
+        <br />
         <div className="ChartCanvas">
           <h4>CFA wise Total value for different goods type</h4>
           <StackedBarChart />
@@ -47,7 +53,7 @@ function App() {
         </div>
         <br />
         <div className="ChartCanvas">
-        <h4>CFA wise Claim Count</h4>
+          <h4>CFA wise Claim Count</h4>
           <div className="chart">
             <HozBarChart />
             <div className="Filterdiv">
@@ -60,7 +66,7 @@ function App() {
           <h4>CFA wise Total value for different goods type</h4>
           <StackedBarChart />
         </div>
-      </div> */}
+      </div>
     </>
   );
 }

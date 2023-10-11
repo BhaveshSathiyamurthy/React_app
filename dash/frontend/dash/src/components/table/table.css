@@ -1,0 +1,17 @@
+ul {
+  list-style-type: none;
+  padding-left: 0%;
+  text-align: left;
+}
+tr {
+  text-align: left;
+}
+table {
+  padding: 20px;
+  font-size: 24px;
+  width: 45vw;
+}
+.TableWrapper {
+  font-size: medium;
+  display: flex;
+}
